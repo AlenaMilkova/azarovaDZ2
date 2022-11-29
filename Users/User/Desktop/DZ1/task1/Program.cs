@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите число1: ");
+﻿Console.Clear();
+Console.WriteLine("Введите число1: ");
 int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите число2: ");
 int b = int.Parse(Console.ReadLine());
@@ -8,4 +9,5 @@ if (b > max) max = b;
 {
     Console.WriteLine($"Максимальное число, ");
     Console.Write(max);
+
 }
